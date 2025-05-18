@@ -11,11 +11,17 @@ if age >=18:
             print("Eligible for loan")
         elif credit >= 700:
                 print("Eligible for loan")
+        else:
+            print("Not eligible for loan")        
     elif age < 21: 
         if student.ucase() == "YES":
             if salary >= 25000:
                 print("Eligible for loan")
             elif credit >= 700:
                 print("Eligible for loan")
+            else:
+                print("Not eligible for loan")
+        else:
+            print("Not eligible for loan")     
 else: 
     print("Not eligible for loan")                
