@@ -11,17 +11,13 @@ credit = int(input("enter your credit score: "))
 
 if age >=18:
     if age >= 21: 
-        if salary >= 25000:
+        if salary >= 25000 or credit >= 700:
             print("Eligible for loan")
-        elif credit >= 700:
-                print("Eligible for loan")
         else:
             print("Not eligible for loan")        
     elif age < 21: 
         if student.ucase() == "YES":
-            if salary >= 25000:
-                print("Eligible for loan")
-            elif credit >= 750:
+            if salary >= 25000 or credit >= 750:
                 print("Eligible for loan")
             else:
                 print("Not eligible for loan")
